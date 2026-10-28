@@ -1,0 +1,26 @@
+# Python and IDE
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+# Generated models and outputs
+outputs/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+# Real datasets are private unless separately approved
+/data/
+!/examples/
+# Model caches and temporary files
+.cache/
+.DS_Store
+Thumbs.db
+*.log
